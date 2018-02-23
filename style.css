@@ -1,3 +1,7 @@
+html {
+  margin-top: 25px;
+}
+
 h1, body, p {
   font-family: 'Varela Round', sans-serif;
   text-align: center;
@@ -6,4 +10,43 @@ h1, body, p {
 .logo {
   width: 200px;
   height: auto;
+}
+
+hr {
+  width: 25%;
+}
+
+label[for=signup] {
+  visibility: hidden;
+}
+
+@media (min-width: 75em) {
+input[type=name],[type=password],[type=email] {
+  font-size: 1.4em;
+  padding: 5px;
+  border-style: none;
+  background-color: #ffced2;
+  width: 20%;
+  height: auto;
+  border-radius: 2px;
+  margin: 3px auto;
+  }
+}
+
+button[type=submit] {
+  background-color: #ff2d3f;
+  border-style: none;
+  padding: 5px 10px;
+  margin-top: 15px;
+  border-radius: 2px;
+  color: white;
+  font-size: 1.2em;
+}
+
+footer {
+  font-size: 0.8em;
+  bottom: 0px;
+  margin: auto;
+  position: static;
+  width: 100%;
 }
