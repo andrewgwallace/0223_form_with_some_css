@@ -2,3 +2,8 @@ h1, body, p {
   font-family: 'Varela Round', sans-serif;
   text-align: center;
 }
+
+.logo {
+  width: 200px;
+  height: auto;
+}
